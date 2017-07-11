@@ -293,19 +293,16 @@ ul {
   box-shadow: 0px 0px 4px #555;
   border: 1px solid #181b1c; }
 
-header {
-  background: green; }
-
-main {
-  background: red; }
-  main section {
-    background: #fff;
-    padding-bottom: 50px;
-    transition: all 1s ease-in-out; }
+main section {
+  background: #fff;
+  transition: all 1s ease-in-out;
+  border-bottom: 5px solid #eee; }
 
 h2.section_title {
   text-align: center;
-  font-size: 30px; }
+  font-size: 30px;
+  margin: 0;
+  padding: 20px 0; }
 
 p.description {
   padding: 20px;
@@ -365,7 +362,6 @@ h1.site_heading {
 /* main content area .................*/
 .container {
   width: 100%;
-  background: blue;
   /*from bootstrap*/ }
 
 .base {
