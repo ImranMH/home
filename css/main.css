@@ -317,13 +317,19 @@ p.description {
   color: #FFF; }
 
 h1.site_heading {
-  font-size: 60px;
-  text-align: center; }
+  font-size: 30px;
+  text-align: center;
+  margin: 20px auto;
+  line-height: 35px;
+  text-shadow: 3px 0px 2px #555;
+  letter-spacing: 1.6px; }
 
 .site_subtitle {
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
-  padding: 50px; }
+  padding: 25px;
+  line-height: 20px;
+  letter-spacing: 1.6px; }
 
 .cta {
   text-align: center; }
@@ -334,7 +340,9 @@ h1.site_heading {
     text-transform: uppercase;
     border-radius: 5px;
     margin-right: 10px;
-    font-size: 20px; }
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 150px; }
   .cta .cta_contact {
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
@@ -457,7 +465,8 @@ table, th, td {
     text-transform: capitalize;
     background: #eee; }
   .skill_table td {
-    padding: 10px; }
+    padding: 10px;
+    font-size: 12px; }
     .skill_table td:nth-child(1) {
       font-weight: 700; }
 
@@ -586,6 +595,19 @@ table, th, td {
 
 /* screen greaater then 700 px small screen............ */
 @media (min-width: 768px) {
+  h1.site_heading {
+    font-size: 45px;
+    line-height: 50px;
+    margin: 50px 0 30px; }
+
+  .site_subtitle {
+    font-size: 16px;
+    padding: 25px;
+    line-height: 20px; }
+
+  .skill_table td {
+    font-size: 16px; }
+
   .contact_form .top input {
     margin-right: 10px;
     width: 31%; }
@@ -602,6 +624,12 @@ table, th, td {
   .container {
     width: 72%;
     margin-left: 270px; }
+
+  h1.site_heading {
+    font-size: 45px;
+    line-height: 50px;
+    margin: 40px 0 20px;
+    letter-spacing: 1.6px; }
 
   #header_menu {
     display: none; }
@@ -655,11 +683,20 @@ table, th, td {
     width: 77%;
     margin-left: 270px; }
 
+  h1.site_heading {
+    font-size: 55px;
+    line-height: 60px;
+    margin: 70px 0 20px;
+    letter-spacing: 1.6px; }
+
   .coloumlg30 {
     width: 30%; }
 
   .coloumlg70 {
     width: 70%; }
+
+  .cta {
+    margin-top: 100px; }
 
   .thumb img {
     width: 100%; }
