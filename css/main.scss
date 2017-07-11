@@ -272,11 +272,14 @@ h1.site_heading{
     }
 	}
 	.cta_project{
-		background:rgba(255,255,255,0.4);
-		&:hover{
-		background: red;
+		border: 1px solid #0000ee;
+		background: #0000ee;
 		color: #FFF;
-	}
+		&:hover{
+			background: red;
+	    
+	    border: 1px solid #fff;
+		}
 	}
 	
 }
