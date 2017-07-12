@@ -322,14 +322,30 @@ p.description {
   line-height: 22px;
   letter-spacing: 1.3px; }
 
+/* home page .....................................*/
+.home_bg {
+  background-image: url(../img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100%; }
+
+.bg_overlay {
+  background: rgba(24, 24, 24, 0.8);
+  width: 100%;
+  min-height: 100%;
+  border-left: 5px solid #222; }
+
 /* home page ......................................... */
 .home {
-  color: #FFF; }
+  color: #FFF;
+  padding: 40px 15px 70px; }
 
 h1.site_heading {
   font-size: 30px;
   text-align: center;
-  margin: 20px auto;
   line-height: 35px;
   text-shadow: 2px 0px 1px #555;
   letter-spacing: 1.6px;
@@ -338,7 +354,6 @@ h1.site_heading {
 .site_subtitle {
   font-size: 14px;
   text-align: center;
-  padding: 25px;
   line-height: 20px;
   letter-spacing: 1.6px; }
 
@@ -356,7 +371,7 @@ h1.site_heading {
     margin-bottom: 15px;
     width: 180px; }
   .cta .cta_contact {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.1);
     color: #fff;
     border: 1px solid #fff; }
     .cta .cta_contact:hover {
@@ -446,23 +461,6 @@ ul.p_t_u {
 .logo_area {
   margin: 10px 0 20px !important; }
 
-/* home page .....................................*/
-.home_bg {
-  background-image: url(../img/bg3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  min-height: 100vh;
-  position: relative; }
-
-.bg_overlay {
-  background: rgba(24, 24, 24, 0.8);
-  width: 100%;
-  min-height: 100%;
-  border-left: 5px solid #222;
-  position: absolute; }
-
 /* about page .....................................*/
 table, th, td {
   border: 1px solid #ccc;
@@ -547,7 +545,7 @@ table, th, td {
 .hearder_zone {
   background: #181818;
   overflow: hidden;
-  border: 1px solid #020202;
+  border: 1px solid #222;
   box-shadow: 0px 0px 4px #555;
   color: #FFF; }
   .hearder_zone .top_logo {
@@ -612,6 +610,9 @@ table, th, td {
 
 /* screen greaater then 700 px small screen............ */
 @media (min-width: 768px) {
+  .home {
+    padding: 70px 30px 130px; }
+
   h1.site_heading {
     font-size: 45px;
     line-height: 50px;
